@@ -1,0 +1,161 @@
+body {
+    /*text-align:center; ==> centra tutto, ma non va bene per le liste*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /*display: flex;*/
+    /*align-content: center;*/
+    /*align-items: center; ==> questo NON allinea automaticamente tutti gli elementi del body a centro pagina*/
+
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.testa {
+    /*text-align: center;*/
+    width: 50%;
+    /*per evidenziale l'effetto di centratura*/
+
+    /*stesso margine dalla sinistra e dalla destra della pagina:*/
+    margin-left: auto;
+    margin-right: auto;
+
+    /*testo allineato a sinistra*/
+    text-align: left;
+
+}
+
+.testo1 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(255, 99, 71, 0.1);
+    padding-bottom: 10px
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.divlogo {
+    /*width: 100px; ==> questo non ridimensiona l'immagine, bisogna agire su essa per ridimensionarla*/
+
+    height: auto;
+
+    /*tutte le proprietà seguenti non allineano nulla nel div, solo 
+    la text-align allinea al centro l'immagine
+
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+    align-self: center;
+    vertical-align: middle;
+    */
+    border-bottom: 1px solid orange;
+    text-align: center;
+
+
+}
+
+.ASimplyFabulous {
+    /* Stili CSS */
+    font-weight: bold
+}
+
+.immagineFocaccia {
+    width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 20px;
+
+}
+
+.contenitImmPrincipale {
+    text-align: center;
+
+}
+
+.didascaliaFocaccia {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.didascaliaFocaccia span {
+    color: grey;
+    /* Cambia il colore del testo */
+    font-size: 14px;
+    /* Imposta la dimensione del font */
+}
+
+.feauturedIn {
+    /* display:block; ==> qui non funziona perchè il div ha già
+   la block di default. Se voglio vedere il testo a capo
+   devo chiuderlo in uno span e dare la block ad esso */
+    /*text-align: center;*/
+
+    width: 50%;
+    /*per evidenziale l'effetto di centratura*/
+
+    /*stesso margine dalla sinistra e dalla destra della pagina:*/
+    margin-left: auto;
+    margin-right: auto;
+
+    /*testo allineato a sinistra*/
+    text-align: left;
+
+    padding-left: 1rem;
+    /*dimensione del font dell'elemento radice*/
+    margin-top: 30px;
+
+
+    border-left: 1px solid orange;
+
+
+}
+
+.feauturedIn span {
+    display: block;
+    color: brown;
+    font-weight: bold;
+}
+
+.divFinale {
+    width: 50%;
+    /*per evidenziale l'effetto di centratura*/
+
+    /*stesso margine dalla sinistra e dalla destra della pagina:*/
+    margin-left: auto;
+    margin-right: auto;
+
+    /*testo allineato a sinistra*/
+    text-align: left;
+
+    padding-left: 1rem;
+    /*dimensione del font dell'elemento radice*/
+    margin-top: 100px;
+}
+
+ul {
+    margin-bottom: 3rem;
+}
+
+li {
+    margin-bottom: 1rem;
+
+}
+
+.IngredientsMethod {
+    border-bottom: 1px solid lightskyblue;
+
+}
